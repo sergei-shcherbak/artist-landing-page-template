@@ -11,20 +11,21 @@ jobs:
     env:
       IMAGE_NAME: gcr.io/${{ secrets.GCP_PROJECT_ID }}/${{ secrets.GCP_APP_NAME }}
     steps:
+    
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - id: 'auth'
+      - name: 'Google auth'
         uses: 'google-github-actions/auth@v1'
         with:
           credentials_json: '${{ secrets.GCP_CREDENTIALS }}'
+          create_credentials_file: true
 
       - name: 'Set up Cloud SDK'
         uses: 'google-github-actions/setup-gcloud@v1'
 
       - name: Configure Docker
         run: gcloud auth configure-docker --quiet
-
-      - name: Checkout repository
-        uses: actions/checkout@v2
 
       - name: Build Docker image
         run: docker build . -t $IMAGE_NAME
