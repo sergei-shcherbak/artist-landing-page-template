@@ -16,10 +16,7 @@ ENV NODE_ENV production
 COPY --from=builder /app/next.config.js ./
 COPY --from=builder /app/i18n.json ./
 COPY --from=builder /app/public ./public
-COPY --from=builder /app/pages ./pages
-COPY --from=builder /app/styles ./styles
-COPY --from=builder /app/_posts ./_posts
-COPY --from=builder /app/locales ./locales
+COPY --from=builder /app/app ./app
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/package.json ./package.json
