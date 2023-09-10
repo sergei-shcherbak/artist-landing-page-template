@@ -1,28 +1,29 @@
-import * as Constants from '../constants/images'
+import * as Constants from "../constants/images";
 
 export default function Author() {
   return (
-    <div className="flex w-full items-center font-sans p-8 md:p-24">
+    <div className="flex w-full items-center p-8 font-sans md:p-24">
       <img
-        className="w-10 h-10 rounded-full mr-4"
-        src={Constants.AVATAR.src} alt={Constants.AVATAR.name}
+        className="mr-4 h-10 w-10 rounded-full"
+        src={Constants.AVATAR.src}
+        alt={Constants.AVATAR.name}
       />
       <div className="flex-1">
-        <p className="text-base font-bold text-base md:text-xl leading-none">
+        <p className="text-base text-base font-bold leading-none md:text-xl">
           Julia Shcherbak
         </p>
-        <p className="text-gray-600 text-xs md:text-base">
+        <p className="text-xs text-gray-600 md:text-base">
           Digital Artist 2D/3D
         </p>
       </div>
       <div className="justify-end">
         <a
           href="#"
-          className="bg-transparent border border-gray-500 hover:border-green-500 text-xs text-gray-500 hover:text-green-500 font-bold py-2 px-4 rounded-full"
+          className="rounded-full border border-gray-500 bg-transparent px-4 py-2 text-xs font-bold text-gray-500 hover:border-green-500 hover:text-green-500"
         >
           Download Resume
         </a>
       </div>
     </div>
-  )
+  );
 }
