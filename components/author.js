@@ -21,7 +21,7 @@ export default function Author() {
           href="#"
           className="rounded-full border border-gray-500 bg-transparent px-4 py-2 text-xs font-bold text-gray-500 hover:border-green-500 hover:text-green-500"
         >
-          Download Resume
+          Download CV
         </a>
       </div>
     </div>

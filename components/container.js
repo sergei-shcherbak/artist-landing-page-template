@@ -15,7 +15,6 @@ export default function Container() {
             <ContainerSecondRaw />
             <ContainerThirdRaw />
           </div>
-
           <ContainerGallery />
         </div>
         <Author />

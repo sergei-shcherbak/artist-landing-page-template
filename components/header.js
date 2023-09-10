@@ -1,6 +1,6 @@
-import Link from "next/link";
-import { BsInstagram, BsLinkedin, BsArrowDown } from "react-icons/bs";
+import { BsInstagram, BsLinkedin, BsFiletypePdf } from "react-icons/bs";
 import { SiSketchfab } from "react-icons/si";
+
 
 export default function Header() {
   return (
@@ -62,10 +62,18 @@ export default function Header() {
                 <a
                   className="inline-flex items-center justify-center gap-x-3 rounded-md border border-transparent 
                   bg-sky-500 px-4 py-3 text-center text-sm font-medium text-white transition
-                   hover:bg-blue-800 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 focus:ring-offset-white"
+                   hover:bg-sky-800 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2 focus:ring-offset-white"
                   href="https://sketchfab.com/juliashchrbk"
                 >
                   <SiSketchfab size="2rem" />
+                </a>
+                <a
+                  className="inline-flex items-center justify-center gap-x-3 rounded-md border border-transparent 
+                  bg-red-500 px-4 py-3 text-center text-sm font-medium text-white transition
+                   hover:bg-red-800 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 focus:ring-offset-white"
+                  href="https://sketchfab.com/juliashchrbk"
+                >
+                  <BsFiletypePdf size="2rem" />
                 </a>
               </div>
               {/* End Buttons */}

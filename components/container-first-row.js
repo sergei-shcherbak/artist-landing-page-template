@@ -5,7 +5,7 @@ export default function ContainerFirstRow() {
   return (
     <>
       {/*1/2 col */}
-      <div className="flex w-full flex-shrink flex-grow flex-col p-6 md:w-1/2">
+      <div className="flex w-full flex-shrink flex-grow flex-col px-6 pb-6 md:w-1/2">
         <div className="flex-1 overflow-hidden rounded-b-none rounded-t bg-white shadow-lg">
           <a
             href="#"
@@ -33,7 +33,7 @@ export default function ContainerFirstRow() {
         </div>
       </div>
       {/*1/2 col */}
-      <div className="flex w-full flex-shrink flex-grow flex-col p-6 md:w-1/2">
+      <div className="flex w-full flex-shrink flex-grow flex-col px-6 pb-6 md:w-1/2">
         <div className="flex-1 flex-row overflow-hidden rounded-b-none rounded-t bg-white shadow-lg">
           <a
             href="#"
