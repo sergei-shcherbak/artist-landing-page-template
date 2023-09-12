@@ -1,4 +1,4 @@
-import { BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BsInstagram, BsLinkedin, BsFiletypePdf } from "react-icons/bs";
 import { SiSketchfab } from "react-icons/si";
 
 export default function Footer() {
@@ -42,6 +42,14 @@ export default function Footer() {
                   href="https://sketchfab.com/juliashchrbk"
                 >
                   <SiSketchfab size="1rem" />
+                </a>
+              </li>
+              <li>
+                <a
+                  className="inline-block px-3 py-2 text-gray-600 no-underline hover:text-gray-200 hover:underline"
+                  href="https://sketchfab.com/juliashchrbk"
+                >
+                  <BsFiletypePdf size="1rem" />
                 </a>
               </li>
             </ul>

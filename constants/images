@@ -4,7 +4,7 @@ export const AVATAR =
   src: "https://drive.google.com/uc?export=view&id=121e5w4TG3E0y1ryY_8rbO7ZGWairNsvP"
 };
 
-export const images_first_row = [
+export const FIRST_ROW_IMAGES = [
   {
     name: "Doctor Strange in the Multiverse of Madness",
     src: "https://drive.google.com/uc?export=view&id=1q0QtSsznNq39I1pcjcCj_WburNV_rYiC",
@@ -18,7 +18,7 @@ export const images_first_row = [
 ];
 
 
-export const images_second_row = [
+export const SECOND_ROW_IMAGES = [
   {
     name: "Doctor Strange in the Multiverse of Madness",
     src: "https://drive.google.com/uc?export=view&id=14wsToNGE8ja8LxY1KyQ9vn1HljroFjBY",

@@ -1,4 +1,5 @@
 import * as Constants from "../constants/images";
+import { BiLogoGmail } from "react-icons/bi";
 
 export default function Author() {
   return (
@@ -18,10 +19,13 @@ export default function Author() {
       </div>
       <div className="justify-end">
         <a
-          href="#"
-          className="rounded-full border border-gray-500 bg-transparent px-4 py-2 text-xs font-bold text-gray-500 hover:border-green-500 hover:text-green-500"
+          className="inline-flex items-center justify-center gap-x-3 rounded-md border border-transparent 
+                  bg-gray-50 px-4 py-3 text-center text-sm font-medium text-red-500 transition
+                   hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 focus:ring-offset-white"
+          href="mailto:juliashchrbk@gmail.com"
         >
-          Download CV
+          <p className="text-xs text-gray-600 md:text-base">Send email </p>
+          <BiLogoGmail size="1rem" />
         </a>
       </div>
     </div>
