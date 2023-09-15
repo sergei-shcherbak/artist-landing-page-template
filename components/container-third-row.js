@@ -1,6 +1,8 @@
 import * as Constants from "../constants/images";
 
 export default function ContainerThirdRow() {
+  const BIG_IMAGE = Constants.IMAGES_THIRD_ROW[0]
+  const SMALL_COLUMN_IMAGES = [Constants.IMAGES_THIRD_ROW[1], Constants.IMAGES_THIRD_ROW[2]]
   return (
     <>
       {/*2/3 col */}
@@ -11,8 +13,8 @@ export default function ContainerThirdRow() {
             className="flex flex-wrap no-underline hover:no-underline"
           >
             <img
-              src={Constants.images_third_row[0].src}
-              alt={Constants.images_third_row[0].name}
+              src={BIG_IMAGE.src}
+              alt={BIG_IMAGE.name}
               className="h-full w-full rounded-t"
             />
           </a>
@@ -26,7 +28,7 @@ export default function ContainerThirdRow() {
               alt={Constants.AVATAR.name}
             />
             <p className="text-xs text-gray-600 md:text-sm">
-              {Constants.images_third_row[0].comment}
+              {BIG_IMAGE.comment}
             </p>
           </div>
         </div>
@@ -40,8 +42,8 @@ export default function ContainerThirdRow() {
               className="flex flex-wrap no-underline hover:no-underline"
             >
               <img
-                src={Constants.images_third_row[1].src}
-                alt={Constants.images_third_row[1].name}
+                src={SMALL_COLUMN_IMAGES[0].src}
+                alt={SMALL_COLUMN_IMAGES[0].name}
                 className="h-full w-full rounded-t"
               />
             </a>
@@ -55,7 +57,7 @@ export default function ContainerThirdRow() {
                 alt={Constants.AVATAR.name}
               />
               <p className="text-xs text-gray-600 md:text-sm">
-                {Constants.images_third_row[1].comment}
+                {SMALL_COLUMN_IMAGES[0].comment}
               </p>
             </div>
           </div>
@@ -67,8 +69,8 @@ export default function ContainerThirdRow() {
               className="flex flex-wrap no-underline hover:no-underline"
             >
               <img
-                src={Constants.images_third_row[2].src}
-                alt={Constants.images_third_row[2].name}
+                src={SMALL_COLUMN_IMAGES[1].src}
+                alt={SMALL_COLUMN_IMAGES[1].name}
                 className="h-full w-full rounded-t"
               />
             </a>
@@ -82,7 +84,7 @@ export default function ContainerThirdRow() {
                 alt={Constants.AVATAR.name}
               />
               <p className="text-xs text-gray-600 md:text-sm">
-                {Constants.images_third_row[2].comment}
+                {SMALL_COLUMN_IMAGES[1].comment}
               </p>
             </div>
           </div>

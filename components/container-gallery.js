@@ -1,12 +1,13 @@
 "use client";
-import YetLightbox from "./YetLightbox";
+import { TEXT } from "../constants/comments";
+import YetLightbox from "./yetLightbox";
 
 export default function ContainerGallery() {
   return (
     <>
       <div className="flex h-full w-full justify-center overflow-hidden rounded shadow-lg">
         <p className="font-large mb-5 inline-block bg-gradient-to-l font-mono text-4xl font-bold text-sky-500/60">
-          More of my works you&apos;ll find here:
+          {TEXT.GALLERY_PHRASE}
         </p>
       </div>
       {/*Lead Card*/}

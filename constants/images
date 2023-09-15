@@ -1,77 +1,71 @@
 export const AVATAR =
 {
   name: "Julia Shcherbak",
-  src: "https://drive.google.com/uc?export=view&id=121e5w4TG3E0y1ryY_8rbO7ZGWairNsvP"
+  src: "/avatar.jpg"
 };
 
 export const FIRST_ROW_IMAGES = [
   {
-    name: "Doctor Strange in the Multiverse of Madness",
-    src: "https://drive.google.com/uc?export=view&id=1q0QtSsznNq39I1pcjcCj_WburNV_rYiC",
-    comment: "OMG"
+    name: "Star package",
+    src: "/first-row-first-image.jpg",
+    comment: "Star package. Used cloth simulation, box riging, grease pencil, trim sheet texture."
   },
   {
-    name: "Minions: The Rise of Gru",
-    src: "https://drive.google.com/uc?export=view&id=1YGlzQl6ibaUjMQ0BP-9X3y1xDHkjS3Mt",
-    comment: "I can't stop look at it"
+    name: "Fluffy star",
+    src: "/first-row-second-image.jpg",
+    comment: "Fluffy star. Used particle system (hair)."
   }
 ];
 
 
 export const SECOND_ROW_IMAGES = [
   {
-    name: "Doctor Strange in the Multiverse of Madness",
-    src: "https://drive.google.com/uc?export=view&id=14wsToNGE8ja8LxY1KyQ9vn1HljroFjBY",
-    comment: "This picture is adorable"
+    name: "Magic book1",
+    src: "/second-row-first-image.jpg",
+    comment: "Magic book. Stage 1."
   },
   {
-    name: "Minions: The Rise of Gru",
-    src: "https://drive.google.com/uc?export=view&id=1tCXHqYSx3DTWTu1brvjiVjEQlMvhEzhT",
-    comment: "This is my favorite"
+    name: "Magic book2",
+    src: "/second-row-second-image.jpg",
+    comment: "Magic book. Stage 2."
   },
   {
-    name: "Minions: The Rise of Gru",
-    src: "https://drive.google.com/uc?export=view&id=1svtfzJmVkub2PeA3va8t_cFD3NvSN3Gx",
-    comment: "Amazing"
+    name: "Magic book3",
+    src: "/second-row-third-image.jpg",
+    comment: "Magic book. Stage 3."
   }
 ];
 
-export const images_third_row = [
+export const IMAGES_THIRD_ROW = [
   {
-    name: "Doctor Strange in the Multiverse of Madness",
-    src: "https://drive.google.com/uc?export=view&id=1Oi8GeZAT5xuQMVPpNToy8M3235oW_x4-",
-    comment: "Super"
+    name: "Secret area",
+    src: "/third-row-first-image.jpg",
+    comment: "Secret area."
   },
   {
-    name: "Minions: The Rise of Gru",
-    src: "https://drive.google.com/uc?export=view&id=1V182nNE1q5mOJe8gjVCC2Xg6oDWPKn20",
-    comment: "Adorable"
+    name: "Secret area: light part1",
+    src: "/third-row-second-image.jpg",
+    comment: "Secret area. Tower."
   },
   {
-    name: "Minions: The Rise of Gru",
-    src: "https://drive.google.com/uc?export=view&id=16WZxGjd81GNp96mOaxa6WQ4_1NmgOA2F",
-    comment: "Just Amazing"
+    name: "Secret area: light part2",
+    src: "/third-row-third-image.jpg",
+    comment: "Secret area. UFO."
   }
 ];
 
 export const SLIDES = [
   {
-    src: "https://drive.google.com/uc?export=view&id=1MR5qvOqB3ydvJvCuIA_jW7oV1rvbD6ZB",
-    alt: "Doctor Strange in the Multiverse of Madness",
-    width: 3840,
-    height: 2560
+    src: "/gallery/first.jpg",
+    alt: "Raw concept of cactus character"
   },
   {
-    src: "https://drive.google.com/uc?export=view&id=1ddPPAPJBVi2xLhClJJDJdd4G8uHh6mQg",
-    alt: "Minions: The Rise of Gru",
-    width: 3840,
-    height: 2560
+    src: "/gallery/second.jpg",
+    alt: "Concept of cactus character"
   },
   {
-    src: "https://drive.google.com/uc?export=view&id=10Pn1K1goHH2dOCAaOfXXaYXo6yV6XG6k",
-    alt: "Doctor Strange in the Multiverse of Madness",
-    width: 3840,
-    height: 2560
+    src: "/gallery/third.jpg",
+    alt: "3d cactus character"
   }
 
 ];

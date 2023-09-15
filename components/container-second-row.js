@@ -13,7 +13,7 @@ export default function ContainerSecondRow() {
               <img
                 src={image.src}
                 alt={image.name}
-                className="h-64 w-full rounded-t"
+                className="h-80 w-full rounded-t"
               />
             </a>
           </div>

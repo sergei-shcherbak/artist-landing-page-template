@@ -1,5 +1,6 @@
-import * as Constants from "../constants/images";
 import { BiLogoGmail } from "react-icons/bi";
+import * as Constants from "../constants/images";
+import { TEXT, LINKS } from "../constants/comments";
 
 export default function Author() {
   return (
@@ -11,10 +12,10 @@ export default function Author() {
       />
       <div className="flex-1">
         <p className="text-base text-base font-bold leading-none md:text-xl">
-          Julia Shcherbak
+          {TEXT.FULL_NAME}
         </p>
         <p className="text-xs text-gray-600 md:text-base">
-          Digital Artist 2D/3D
+          {TEXT.POSITION}
         </p>
       </div>
       <div className="justify-end">
@@ -22,9 +23,9 @@ export default function Author() {
           className="inline-flex items-center justify-center gap-x-3 rounded-md border border-transparent 
                   bg-gray-50 px-4 py-3 text-center text-sm font-medium text-red-500 transition
                    hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 focus:ring-offset-white"
-          href="mailto:juliashchrbk@gmail.com"
+          href={LINKS.EMAIL}
         >
-          <p className="text-xs text-gray-600 md:text-base">Send email </p>
+          <p className="text-xs text-gray-600 md:text-base">Contanct me </p>
           <BiLogoGmail size="1rem" />
         </a>
       </div>

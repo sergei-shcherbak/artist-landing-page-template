@@ -1,5 +1,6 @@
 import { BsInstagram, BsLinkedin, BsFiletypePdf } from "react-icons/bs";
 import { SiSketchfab } from "react-icons/si";
+import { TEXT, LINKS } from "../constants/comments";
 
 export default function Footer() {
   return (
@@ -14,7 +15,7 @@ export default function Footer() {
               ✏️{" "}
               <span className="text-base text-gray-200">
                 {" "}
-                Julia Shcherbak 2D/3D Artist
+                {TEXT.POSITION}
               </span>
             </a>
           </div>
@@ -23,7 +24,7 @@ export default function Footer() {
               <li>
                 <a
                   className="inline-block px-3 py-2 text-gray-600 no-underline hover:text-gray-200 hover:underline"
-                  href="https://www.linkedin.com/in/juliashchrbk/"
+                  href={LINKS.LINKEDIN}
                 >
                   <BsLinkedin size="1rem" />
                 </a>
@@ -31,7 +32,7 @@ export default function Footer() {
               <li>
                 <a
                   className="inline-block px-3 py-2 text-gray-600 no-underline hover:text-gray-200 hover:underline"
-                  href="https://www.instagram.com/julia_shchrbk_art"
+                  href={LINKS.INSTAGRAM}
                 >
                   <BsInstagram size="1rem" />
                 </a>
@@ -39,7 +40,7 @@ export default function Footer() {
               <li>
                 <a
                   className="inline-block px-3 py-2 text-gray-600 no-underline hover:text-gray-200 hover:underline"
-                  href="https://sketchfab.com/juliashchrbk"
+                  href={LINKS.SKETCHFAB}
                 >
                   <SiSketchfab size="1rem" />
                 </a>
@@ -47,7 +48,7 @@ export default function Footer() {
               <li>
                 <a
                   className="inline-block px-3 py-2 text-gray-600 no-underline hover:text-gray-200 hover:underline"
-                  href="https://sketchfab.com/juliashchrbk"
+                  href={LINKS.RESUME}
                 >
                   <BsFiletypePdf size="1rem" />
                 </a>
