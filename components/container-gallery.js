@@ -1,6 +1,5 @@
-"use client";
 import { TEXT } from "../constants/comments";
-import YetLightbox from "./yetLightbox";
+import YetLightbox from "./YetLightbox";
 
 export default function ContainerGallery() {
   return (
